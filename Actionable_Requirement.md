@@ -89,3 +89,7 @@ The client noticed that AI models sometimes behave unfairly because of biased tr
 
 **User Story:**  
 As a developer, I want to monitor AI model performance so that I can ensure accuracy and efficiency.
+
+**Purpose:**  
+After talking to the client, they expressed concern that AI models degrade in accuracy over time. To solve this, we will implement an automated performance monitoring system that tracks model efficiency.
+
