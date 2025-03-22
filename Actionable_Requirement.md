@@ -95,3 +95,19 @@ After talking to the client, they expressed concern that AI models degrade in ac
 
 **Implementation Strategy:**
 - Implement alerts and reporting tools for performance degradation.
+
+### Sub-Issues
+
+#### [UR-03.1] Define Performance Metrics
+- **Assumption:** We can measure how well the AI is working using values like accuracy, precision, and recall.
+- **Validation:** Make sure we are correctly tracking these values from the model.
+- **Tasks:**
+  1. Decide which performance metrics are important (e.g., accuracy, speed, etc.).
+  2. Set up tracking for model accuracy and latency.
+
+#### [UR-03.2] Develop a Real-Time Performance Dashboard
+- **Assumption:** Having a visual dashboard will make it easier to monitor how the AI is performing over time.
+- **Validation:** Make sure the dashboard shows live and accurate data.
+- **Tasks:**
+  1. Design a simple and clear dashboard interface.
+  2. Connect the dashboard to the backend system so it shows real-time performance data.
