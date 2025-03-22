@@ -21,25 +21,25 @@ After talking to the client, they expressed the need for structured and easily a
 - **Assumption:** Structured training questions improve retrieval efficiency.
 - **Validation:** Verify that the training questions table is created and can store sample data.
 - **Tasks:**
-  - Create a table with `question_id`, `question_text`, `category`, `created_at`.
-  - Set `question_id` as the primary key.
-  - Execute SQL script and verify the table structure.
+  [] Create a table with `question_id`, `question_text`, `category`, `created_at`.
+  [] Set `question_id` as the primary key.
+  [] Execute SQL script and verify the table structure.
 
 #### [UR-01.2] Create a Table for Training Answers
 - **Assumption:** Answers should be linked to their respective questions.
 - **Validation:** Ensure a JOIN query can retrieve the correct answers for questions.
 - **Tasks:**
-  - Create a table with `answer_id`, `question_id`, `answer_text`, `created_at`.
-  - Set `question_id` as a foreign key referencing `training_questions`.
-  - Verify relationships with sample queries.
+  [] Create a table with `answer_id`, `question_id`, `answer_text`, `created_at`.
+  [] Set `question_id` as a foreign key referencing `training_questions`.
+  [] Verify relationships with sample queries.
 
 #### [UR-01.3] Implement SQL Queries for Retrieval
 - **Assumption:** Developers need quick access to categorized questions and answers.
 - **Validation:** Ensure queries return accurate results in minimal time.
 - **Tasks:**
-  - Write SQL queries to fetch categorized questions and answers.
-  - Optimize queries for performance.
-  - Validate results with test data.
+  [] Write SQL queries to fetch categorized questions and answers.
+  [] Optimize queries for performance.
+  [] Validate results with test data.
 
 ---
 
@@ -63,25 +63,25 @@ The client noticed that AI models sometimes behave unfairly because of biased tr
 - **Assumption:** Cleaning and organizing the data will help the model work better.
 - **Validation:** Make sure the data is in the correct format.
 - **Tasks:**
-  1. Download datasets (WinoBias, SQuAD-Fairness, CrowS-Pairs).
-  2. Convert them into a clean and readable format.
-  3. Preprocess the data (e.g., remove errors, normalize text).
+  [] Download datasets (WinoBias, SQuAD-Fairness, CrowS-Pairs).
+  [] Convert them into a clean and readable format.
+  [] Preprocess the data (e.g., remove errors, normalize text).
 
 #### [UR-02.2] Implement Bias-Detection Algorithm
 - **Assumption:** AI models can find bias in written text.
 - **Validation:** Measure the model's performance using accuracy, precision, recall, and F1-score.
 - **Tasks:**
-  1. Choose a machine learning model (like an NLP model).
-  2. Train it using the cleaned bias datasets.
-  3. Write code to detect and score how biased each sentence or word is.
+  [] Choose a machine learning model (like an NLP model).
+  [] Train it using the cleaned bias datasets.
+  [] Write code to detect and score how biased each sentence or word is.
 
 #### [UR-02.3] Develop an API for Bias-Checking
 - **Assumption:** The API should take in text and return bias analysis results.
 - **Validation:** Make sure the results are correct and fast.
 - **Tasks:**
-  1. Build an API that accepts user input (text) for checking.
-  2. Connect the API to the trained bias-detection model.
-  3. Make sure the API responds quickly and accurately.
+  [] Build an API that accepts user input (text) for checking.
+  [] Connect the API to the trained bias-detection model.
+  [] Make sure the API responds quickly and accurately.
 
 ---
 
@@ -102,15 +102,15 @@ After talking to the client, they expressed concern that AI models degrade in ac
 - **Assumption:** We can measure how well the AI is working using values like accuracy, precision, and recall.
 - **Validation:** Make sure we are correctly tracking these values from the model.
 - **Tasks:**
-  1. Decide which performance metrics are important (e.g., accuracy, speed, etc.).
-  2. Set up tracking for model accuracy and latency.
+  [] Decide which performance metrics are important (e.g., accuracy, speed, etc.).
+  [] Set up tracking for model accuracy and latency.
 
 #### [UR-03.2] Develop a Real-Time Performance Dashboard
 - **Assumption:** Having a visual dashboard will make it easier to monitor how the AI is performing over time.
 - **Validation:** Make sure the dashboard shows live and accurate data.
 - **Tasks:**
-  1. Design a simple and clear dashboard interface.
-  2. Connect the dashboard to the backend system so it shows real-time performance data.
+  [] Design a simple and clear dashboard interface.
+  [] Connect the dashboard to the backend system so it shows real-time performance data.
 
   ---
 
@@ -134,15 +134,15 @@ The client is concerned about privacy when using AI training data. So, we will b
 - **Assumption:** AI training data should not include personal info.
 - **Validation:** Make sure the tool can correctly find personal details.
 - **Tasks:**
-  1. Make a list of sensitive data types (like names, phone numbers, emails, etc.).
-  2. Train a model to detect these personal details in text.
+  [] Make a list of sensitive data types (like names, phone numbers, emails, etc.).
+  [] Train a model to detect these personal details in text.
 
 #### [UR-04.2] Implement Anonymization Algorithm
 - **Assumption:** The tool should protect privacy without making the data useless.
 - **Validation:** Make sure the data is still useful after anonymization.
 - **Tasks:**
-  1. Use text-masking methods (like replacing names with "[NAME]").
-  2. Test the tool using example datasets to check if it works well.
+  [] Use text-masking methods (like replacing names with "[NAME]").
+  [] Test the tool using example datasets to check if it works well.
 
 ---
 
@@ -167,17 +167,17 @@ The client is worried that the AI might generate or respond to harmful or inappr
 - **Assumption:** Clear rules help detect inappropriate content more accurately.
 - **Validation:** Make sure flagged content matches standard moderation guidelines.
 - **Tasks:**
-  1. List the types of content that are considered inappropriate (e.g., hate speech, offensive language, explicit content).
-  2. Set up filtering rules based on these types.
-  3. Create test examples to check if the rules work properly.
+  [] List the types of content that are considered inappropriate (e.g., hate speech, offensive language, explicit content).
+  [] Set up filtering rules based on these types.
+  [] Create test examples to check if the rules work properly.
 
 #### [UR-05.2] Implement User Feedback Mechanism
 - **Assumption:** Users should know why their input was flagged.
 - **Validation:** Ensure the warning or error messages make sense to users.
 - **Tasks:**
-  1. Create clear error or warning messages for flagged content.
-  2. Add actions like: show a warning, block the message, or ask users to rewrite it.
-  3. Allow users to give feedback so the system can improve over time.
+  [] Create clear error or warning messages for flagged content.
+  [] Add actions like: show a warning, block the message, or ask users to rewrite it.
+  [] Allow users to give feedback so the system can improve over time.
 
 ---
 
@@ -202,23 +202,23 @@ After talking to the client, they reported that manually collecting training dat
 - **Assumption:** Publicly available data can be legally scraped and used for AI training.
 - **Validation:** Ensure selected sources provide high-quality and relevant data.
 - **Tasks:**
-  - Research and list websites containing useful AI training data.
-  - Verify legal and ethical compliance for web scraping.
-  - Define specific data fields to extract (e.g., text content, metadata).
+  [] Research and list websites containing useful AI training data.
+  [] Verify legal and ethical compliance for web scraping.
+  [] Define specific data fields to extract (e.g., text content, metadata).
 
 #### [UR-06.2] Develop Web Scraping Scripts
 - **Assumption:** Automated scripts will efficiently extract training data from selected sources.
 - **Validation:** Ensure scripts successfully extract and store data in the correct format.
 - **Tasks:**
-  - Choose a web scraping framework (e.g., BeautifulSoup, Scrapy, Selenium).
-  - Write scripts to extract required data fields.
-  - Implement error handling for website changes or connection failures.
-  - Validate extracted data for completeness and accuracy.
+  [] Choose a web scraping framework (e.g., BeautifulSoup, Scrapy, Selenium).
+  [] Write scripts to extract required data fields.
+  [] Implement error handling for website changes or connection failures.
+  [] Validate extracted data for completeness and accuracy.
 
 #### [UR-06.3] Store Scraped Data in a Structured Format
 - **Assumption:** Storing data in an organized database will improve retrieval efficiency.
 - **Validation:** Ensure data is stored in a way that supports AI model training.
 - **Tasks:**
-  - Design a database schema for storing scraped training data.
-  - Implement data storage using a relational (MySQL, PostgreSQL) or NoSQL (MongoDB) database.
-  - Ensure indexing and efficient querying for stored data.
+  [] Design a database schema for storing scraped training data.
+  [] Implement data storage using a relational (MySQL, PostgreSQL) or NoSQL (MongoDB) database.
+  [] Ensure indexing and efficient querying for stored data.
