@@ -51,3 +51,6 @@ As a developer, I want to build a tool that checks for bias in training data so 
 **Purpose:**  
 The client noticed that AI models sometimes behave unfairly because of biased training data. To solve this, we’ll create a tool that checks training data and shows where the bias is.
 
+**Implementation Strategy:**
+- Use well-known datasets like WinoBias, SQuAD-Fairness, and CrowS-Pairs.
+- Build a machine learning model to detect and highlight biased content.
