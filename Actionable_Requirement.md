@@ -84,3 +84,8 @@ The client noticed that AI models sometimes behave unfairly because of biased tr
   3. Make sure the API responds quickly and accurately.
 
 ---
+
+## [UR-03] AI Model Performance Monitoring
+
+**User Story:**  
+As a developer, I want to monitor AI model performance so that I can ensure accuracy and efficiency.
