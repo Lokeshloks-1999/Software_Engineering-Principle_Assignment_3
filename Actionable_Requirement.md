@@ -125,3 +125,5 @@ The client is concerned about privacy when using AI training data. So, we will b
 **Implementation Strategy:**
 - Use Natural Language Processing (NLP) to detect personal information.
 - Automatically remove or hide sensitive data using smart algorithms.
+
+### 🔴 Priority: High
