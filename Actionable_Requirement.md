@@ -185,3 +185,6 @@ The client is worried that the AI might generate or respond to harmful or inappr
 
 **User Story:**  
 As a developer, I want to use web scraping to collect training data efficiently from public sources.
+
+**Purpose:**  
+After talking to the client, they reported that manually collecting training data is slow and inefficient. To automate this, we decided to implement a web scraping system that gathers relevant training data from public sources and stores it in a structured format for AI model training.
