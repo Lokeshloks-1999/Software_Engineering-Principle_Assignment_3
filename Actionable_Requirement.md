@@ -40,3 +40,10 @@ After talking to the client, they expressed the need for structured and easily a
   - Write SQL queries to fetch categorized questions and answers.
   - Optimize queries for performance.
   - Validate results with test data.
+
+---
+
+## [UR-02] Bias-Checking Tool
+
+**User Story:**  
+As a developer, I want to build a tool that checks for bias in training data so that my AI models can be fair.
