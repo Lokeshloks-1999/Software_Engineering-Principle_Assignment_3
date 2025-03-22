@@ -180,3 +180,8 @@ The client is worried that the AI might generate or respond to harmful or inappr
   3. Allow users to give feedback so the system can improve over time.
 
 ---
+
+## [UR-06] Web Scraping for Training Data Collection
+
+**User Story:**  
+As a developer, I want to use web scraping to collect training data efficiently from public sources.
