@@ -121,3 +121,7 @@ As a developer, I want to build a tool that hides personal information in data s
 
 **Purpose:**  
 The client is concerned about privacy when using AI training data. So, we will build a tool that finds and removes personal details (like names, emails, addresses) from the data.
+
+**Implementation Strategy:**
+- Use Natural Language Processing (NLP) to detect personal information.
+- Automatically remove or hide sensitive data using smart algorithms.
