@@ -47,3 +47,7 @@ After talking to the client, they expressed the need for structured and easily a
 
 **User Story:**  
 As a developer, I want to build a tool that checks for bias in training data so that my AI models can be fair.
+
+**Purpose:**  
+The client noticed that AI models sometimes behave unfairly because of biased training data. To solve this, we’ll create a tool that checks training data and shows where the bias is.
+
