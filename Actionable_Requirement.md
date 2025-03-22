@@ -12,3 +12,15 @@ After talking to the client, they expressed the need for structured and easily a
 - Use IBM Db2 as the database management system.
 - Store training questions and answers separately.
 - Implement efficient retrieval queries.
+
+### 🔴 Priority: High
+
+### Sub-Issues
+
+#### [UR-01.1] Create a Table for Training Questions
+- **Assumption:** Structured training questions improve retrieval efficiency.
+- **Validation:** Verify that the training questions table is created and can store sample data.
+- **Tasks:**
+  - Create a table with `question_id`, `question_text`, `category`, `created_at`.
+  - Set `question_id` as the primary key.
+  - Execute SQL script and verify the table structure.
