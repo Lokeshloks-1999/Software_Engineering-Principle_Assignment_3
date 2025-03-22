@@ -193,3 +193,5 @@ After talking to the client, they reported that manually collecting training dat
 - Use Python-based web scraping tools (e.g., Selenium).
 - Extract text-based AI training data from public websites.
 - Store structured data in a database for easy retrieval.
+
+### 🟡 Priority: Medium
