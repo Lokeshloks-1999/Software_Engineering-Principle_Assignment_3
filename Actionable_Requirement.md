@@ -111,3 +111,10 @@ After talking to the client, they expressed concern that AI models degrade in ac
 - **Tasks:**
   1. Design a simple and clear dashboard interface.
   2. Connect the dashboard to the backend system so it shows real-time performance data.
+
+  ---
+
+## [UR-04] Data Anonymization Tool
+
+**User Story:**  
+As a developer, I want to build a tool that hides personal information in data so user privacy is protected.
