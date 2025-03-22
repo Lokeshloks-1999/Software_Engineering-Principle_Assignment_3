@@ -188,3 +188,8 @@ As a developer, I want to use web scraping to collect training data efficiently 
 
 **Purpose:**  
 After talking to the client, they reported that manually collecting training data is slow and inefficient. To automate this, we decided to implement a web scraping system that gathers relevant training data from public sources and stores it in a structured format for AI model training.
+
+**Implementation Strategy:**
+- Use Python-based web scraping tools (e.g., Selenium).
+- Extract text-based AI training data from public websites.
+- Store structured data in a database for easy retrieval.
