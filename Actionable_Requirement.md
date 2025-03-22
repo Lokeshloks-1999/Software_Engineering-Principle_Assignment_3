@@ -24,3 +24,19 @@ After talking to the client, they expressed the need for structured and easily a
   - Create a table with `question_id`, `question_text`, `category`, `created_at`.
   - Set `question_id` as the primary key.
   - Execute SQL script and verify the table structure.
+
+#### [UR-01.2] Create a Table for Training Answers
+- **Assumption:** Answers should be linked to their respective questions.
+- **Validation:** Ensure a JOIN query can retrieve the correct answers for questions.
+- **Tasks:**
+  - Create a table with `answer_id`, `question_id`, `answer_text`, `created_at`.
+  - Set `question_id` as a foreign key referencing `training_questions`.
+  - Verify relationships with sample queries.
+
+#### [UR-01.3] Implement SQL Queries for Retrieval
+- **Assumption:** Developers need quick access to categorized questions and answers.
+- **Validation:** Ensure queries return accurate results in minimal time.
+- **Tasks:**
+  - Write SQL queries to fetch categorized questions and answers.
+  - Optimize queries for performance.
+  - Validate results with test data.
