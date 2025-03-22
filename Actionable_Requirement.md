@@ -127,3 +127,21 @@ The client is concerned about privacy when using AI training data. So, we will b
 - Automatically remove or hide sensitive data using smart algorithms.
 
 ### 🔴 Priority: High
+
+### Sub-Issues
+
+#### [UR-04.1] Identify Sensitive Data in Training Sets
+- **Assumption:** AI training data should not include personal info.
+- **Validation:** Make sure the tool can correctly find personal details.
+- **Tasks:**
+  1. Make a list of sensitive data types (like names, phone numbers, emails, etc.).
+  2. Train a model to detect these personal details in text.
+
+#### [UR-04.2] Implement Anonymization Algorithm
+- **Assumption:** The tool should protect privacy without making the data useless.
+- **Validation:** Make sure the data is still useful after anonymization.
+- **Tasks:**
+  1. Use text-masking methods (like replacing names with "[NAME]").
+  2. Test the tool using example datasets to check if it works well.
+
+---
