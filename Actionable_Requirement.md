@@ -150,3 +150,6 @@ The client is concerned about privacy when using AI training data. So, we will b
 
 **User Story:**  
 As a developer, I want to detect and handle inappropriate or sensitive content so the AI can behave in a safe and responsible way.
+
+**Purpose:**  
+The client is worried that the AI might generate or respond to harmful or inappropriate messages. To prevent this, we will build a content moderation system that can detect and stop such content before it reaches or is processed by the AI.
