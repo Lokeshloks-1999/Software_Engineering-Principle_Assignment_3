@@ -54,3 +54,6 @@ The client noticed that AI models sometimes behave unfairly because of biased tr
 **Implementation Strategy:**
 - Use well-known datasets like WinoBias, SQuAD-Fairness, and CrowS-Pairs.
 - Build a machine learning model to detect and highlight biased content.
+
+### 🟠 Priority: Medium
+
