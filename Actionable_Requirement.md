@@ -160,3 +160,23 @@ The client is worried that the AI might generate or respond to harmful or inappr
 - Show users feedback when their message gets flagged.
 
 ### 🔴 Priority: High
+
+### Sub-Issues
+
+#### [UR-05.1] Define Content Moderation Rules
+- **Assumption:** Clear rules help detect inappropriate content more accurately.
+- **Validation:** Make sure flagged content matches standard moderation guidelines.
+- **Tasks:**
+  1. List the types of content that are considered inappropriate (e.g., hate speech, offensive language, explicit content).
+  2. Set up filtering rules based on these types.
+  3. Create test examples to check if the rules work properly.
+
+#### [UR-05.2] Implement User Feedback Mechanism
+- **Assumption:** Users should know why their input was flagged.
+- **Validation:** Ensure the warning or error messages make sense to users.
+- **Tasks:**
+  1. Create clear error or warning messages for flagged content.
+  2. Add actions like: show a warning, block the message, or ask users to rewrite it.
+  3. Allow users to give feedback so the system can improve over time.
+
+---
