@@ -57,3 +57,30 @@ The client noticed that AI models sometimes behave unfairly because of biased tr
 
 ### 🟠 Priority: Medium
 
+### Sub-Issues
+
+#### [UR-02.1] Collect and Preprocess Bias-Detection Datasets
+- **Assumption:** Cleaning and organizing the data will help the model work better.
+- **Validation:** Make sure the data is in the correct format.
+- **Tasks:**
+  1. Download datasets (WinoBias, SQuAD-Fairness, CrowS-Pairs).
+  2. Convert them into a clean and readable format.
+  3. Preprocess the data (e.g., remove errors, normalize text).
+
+#### [UR-02.2] Implement Bias-Detection Algorithm
+- **Assumption:** AI models can find bias in written text.
+- **Validation:** Measure the model's performance using accuracy, precision, recall, and F1-score.
+- **Tasks:**
+  1. Choose a machine learning model (like an NLP model).
+  2. Train it using the cleaned bias datasets.
+  3. Write code to detect and score how biased each sentence or word is.
+
+#### [UR-02.3] Develop an API for Bias-Checking
+- **Assumption:** The API should take in text and return bias analysis results.
+- **Validation:** Make sure the results are correct and fast.
+- **Tasks:**
+  1. Build an API that accepts user input (text) for checking.
+  2. Connect the API to the trained bias-detection model.
+  3. Make sure the API responds quickly and accurately.
+
+---
