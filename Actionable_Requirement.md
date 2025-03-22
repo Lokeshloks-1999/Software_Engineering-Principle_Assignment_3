@@ -195,3 +195,30 @@ After talking to the client, they reported that manually collecting training dat
 - Store structured data in a database for easy retrieval.
 
 ### 🟡 Priority: Medium
+
+### Sub-Issues
+
+#### [UR-06.1] Identify Target Websites for Web Scraping
+- **Assumption:** Publicly available data can be legally scraped and used for AI training.
+- **Validation:** Ensure selected sources provide high-quality and relevant data.
+- **Tasks:**
+  - Research and list websites containing useful AI training data.
+  - Verify legal and ethical compliance for web scraping.
+  - Define specific data fields to extract (e.g., text content, metadata).
+
+#### [UR-06.2] Develop Web Scraping Scripts
+- **Assumption:** Automated scripts will efficiently extract training data from selected sources.
+- **Validation:** Ensure scripts successfully extract and store data in the correct format.
+- **Tasks:**
+  - Choose a web scraping framework (e.g., BeautifulSoup, Scrapy, Selenium).
+  - Write scripts to extract required data fields.
+  - Implement error handling for website changes or connection failures.
+  - Validate extracted data for completeness and accuracy.
+
+#### [UR-06.3] Store Scraped Data in a Structured Format
+- **Assumption:** Storing data in an organized database will improve retrieval efficiency.
+- **Validation:** Ensure data is stored in a way that supports AI model training.
+- **Tasks:**
+  - Design a database schema for storing scraped training data.
+  - Implement data storage using a relational (MySQL, PostgreSQL) or NoSQL (MongoDB) database.
+  - Ensure indexing and efficient querying for stored data.
