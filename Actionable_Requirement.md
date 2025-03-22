@@ -118,3 +118,6 @@ After talking to the client, they expressed concern that AI models degrade in ac
 
 **User Story:**  
 As a developer, I want to build a tool that hides personal information in data so user privacy is protected.
+
+**Purpose:**  
+The client is concerned about privacy when using AI training data. So, we will build a tool that finds and removes personal details (like names, emails, addresses) from the data.
