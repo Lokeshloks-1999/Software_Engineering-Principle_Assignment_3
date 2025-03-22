@@ -153,3 +153,9 @@ As a developer, I want to detect and handle inappropriate or sensitive content s
 
 **Purpose:**  
 The client is worried that the AI might generate or respond to harmful or inappropriate messages. To prevent this, we will build a content moderation system that can detect and stop such content before it reaches or is processed by the AI.
+
+**Implementation Strategy:**
+- Use AI (NLP models) to detect bad or sensitive language.
+- Add rules to block or flag harmful content.
+- Show users feedback when their message gets flagged.
+
